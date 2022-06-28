@@ -1,0 +1,29 @@
+public class breakAndContinue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i;
+		try{
+			for(i=0; i<8; i++) {
+				System.out.println("In looping statement");
+				
+			if(i==2) {
+				System.out.println("in continue block");
+				continue;
+			}
+		
+			if(i==5) {
+				break;
+			}
+		}
+			
+		}catch(Exception e) {
+			System.out.println("in catch");
+		}
+		finally {
+			System.out.println("in finally block");
+		}
+
+	}
+
+}

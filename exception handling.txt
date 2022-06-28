@@ -1,0 +1,36 @@
+public class exceptionHandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+		try{
+			a = 100;
+			b=0;
+			c=a/b;
+			System.out.println("answer = "+c);
+		}
+		catch(Exception e) {
+		    System.out.println("Handle the exception"+e );	
+		}
+		String s;
+		try {
+			s="anagha";
+			int i=Integer.parseInt(s);
+			System.out.println("i = "+i);
+				
+		}catch(Exception e){
+			System.out.println("handle the exception "+e);
+		}
+		int abc[] = new int[5];
+		try {
+			abc[7]=10;
+			System.out.println(abc[7]);
+		}catch(Exception e) {
+			System.out.println("handle the exception "+e);
+		}
+		
+		
+
+	}
+
+}
